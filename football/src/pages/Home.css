@@ -1,0 +1,102 @@
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.hero-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.9);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.overlay-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay-text p {
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: #111111;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer p {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  font-size: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 999;
+}
+
+nav .nav-left {
+  display: flex;
+  gap: 1rem;
+}
+
+nav .nav-right {
+  margin-left: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
